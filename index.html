@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="desktop col-lg-6 col-md-6">
+        <div class="group-2">
+            <div id="spinner"></div>
+            <div class="dis">
+                <h1 class="heading">The Weather App</h1>
+<p class="temperature" id="temp"></p>
+<p class="cityname" id="city"></p>
+            </div>
+
+        </div>
+        <div class="group-8">
+            <div class="group-6">
+                <button class="submit" id="button" onClick="handleClick()">Get Weather</button>
+            </div>
+            <div class="group-7">
+                <input id="myInput" type="text" class='input-field' placeholder='Enter City' required>
+            </div>
+        </div>
+       
+        <div class="img1">
+<img src="weather-illustration.png" alt="">
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
